@@ -6,7 +6,6 @@ import (
 	"crypto/rand"
 	"crypto/x509"
 	"crypto/x509/pkix"
-	"fmt"
 	"math/big"
 	"net"
 	"time"
@@ -22,7 +21,7 @@ func Generate(hosts ...string) error {
 	serialNumber, err := rand.Int(rand.Reader, serialNumberLimit)
 
 	if err != nil {
-		return fmt.Errorf("failed to generate serial number: %s", err)
+		return err
 	}
 
 	// Generate Root CA key
