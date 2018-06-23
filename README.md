@@ -22,7 +22,9 @@ makecert -host local.example.com
 makecert -host local.example.com,localhost,127.0.0.1
 ```
 
-This will create 4 files in the current directory:
+## Output
+
+The tool will create 4 files in the current directory:
 
 * **root.crt** (import this as a trusted authority into your browser)
 * **root.key**
