@@ -11,20 +11,20 @@ Creates self-signed certificates for local development using ECDSA and x509 Vers
 ## Installation
 
 ```shell
-go get -u github.com/aerogo/certificate/...
+go get -u github.com/blitzprog/home/...
 ```
 
 ## Usage
 
 ### Single domain
 
-```
+```shell
 makecert -host local.example.com
 ```
 
 ### Multi domain
 
-```
+```shell
 makecert -host local.example.com,localhost,127.0.0.1
 ```
 
@@ -55,13 +55,13 @@ Want to see [your own name here](https://www.patreon.com/eduardurbach)?
 |---|
 | [Eduard Urbach](https://eduardurbach.com) |
 
-[godoc-image]: https://godoc.org/github.com/aerogo/certificate?status.svg
-[godoc-url]: https://godoc.org/github.com/aerogo/certificate
-[report-image]: https://goreportcard.com/badge/github.com/aerogo/certificate
-[report-url]: https://goreportcard.com/report/github.com/aerogo/certificate
-[tests-image]: https://cloud.drone.io/api/badges/aerogo/certificate/status.svg
-[tests-url]: https://cloud.drone.io/aerogo/certificate
-[coverage-image]: https://codecov.io/gh/aerogo/certificate/graph/badge.svg
-[coverage-url]: https://codecov.io/gh/aerogo/certificate
+[godoc-image]: https://godoc.org/github.com/blitzprog/home?status.svg
+[godoc-url]: https://godoc.org/github.com/blitzprog/home
+[report-image]: https://goreportcard.com/badge/github.com/blitzprog/home
+[report-url]: https://goreportcard.com/report/github.com/blitzprog/home
+[tests-image]: https://cloud.drone.io/api/badges/blitzprog/home/status.svg
+[tests-url]: https://cloud.drone.io/blitzprog/home
+[coverage-image]: https://codecov.io/gh/blitzprog/home/graph/badge.svg
+[coverage-url]: https://codecov.io/gh/blitzprog/home
 [patreon-image]: https://img.shields.io/badge/patreon-donate-green.svg
 [patreon-url]: https://www.patreon.com/eduardurbach
