@@ -10,13 +10,13 @@ Creates self-signed certificates for local development using ECDSA and x509 Vers
 
 ### Single domain
 
-```
+```shell
 makecert -host local.example.com
 ```
 
 ### Multi domain
 
-```
+```shell
 makecert -host local.example.com,localhost,127.0.0.1
 ```
 
