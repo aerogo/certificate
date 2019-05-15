@@ -21,5 +21,9 @@ func main() {
 		os.Exit(1)
 	}
 
-	certificate.Generate(strings.Split(host, ",")...)
+	err := certificate.Generate(strings.Split(host, ",")...)
+
+	if err != nil {
+		panic(err)
+	}
 }

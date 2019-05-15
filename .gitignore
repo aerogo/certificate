@@ -1,1 +1,3 @@
 cmd/makecert/makecert
+*.crt
+*.key
